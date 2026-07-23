@@ -1,0 +1,32 @@
+header{
+    padding: var(--header-padding);
+
+    text-align: center;
+    justify-content: center;
+
+    font-family: var(--header-font);
+    font-size: var(--header-size);
+
+    height: 2em;
+}
+
+nav{
+    text-align: start;
+
+    padding: var(--nav-padding);
+
+    border-style: solid;
+    border-width: var(--border-width);
+    border-color: var(--border-color);
+
+    background-color: var(--box-color);
+}
+
+footer{
+    text-align: center;
+
+    background-color: var(--box-color);
+
+    border-style: solid none none;
+    border-color: var(--border-color);
+}

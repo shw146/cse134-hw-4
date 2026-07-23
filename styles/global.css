@@ -1,0 +1,19 @@
+/* Alters general css for the whole page */
+@layer reset{
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@layer base{
+    body{
+        font-family: var(--general-font);
+        color: var(--text-color);
+
+        line-height: var(--line-height-150); 
+
+        background-color: var(--background-color);
+    }
+}

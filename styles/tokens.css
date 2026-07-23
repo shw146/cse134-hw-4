@@ -1,0 +1,16 @@
+:root{
+    --background-color: #fff2c2;
+    --box-color: #fadf7f;
+    --border-color: #ffd43a;
+    --border-width: 4px;
+    --text-color: #316566;
+
+    --line-height-150: 1.5em;
+    --general-font: "Lucida Console", "Courier New", monospace;
+    --header-font: "Palatino", "URW Palladio L", serif;
+    --header-size: x-large;
+
+    --main-section-padding: 2rem;
+    --header-padding: 3rem 0;
+    --nav-padding: 0.25rem;
+}
