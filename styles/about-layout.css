@@ -1,0 +1,25 @@
+body{
+    display: grid;
+}
+
+nav{
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+}
+
+footer{
+    clear: both;
+}
+
+figure[name = "board-box"]{
+    margin: 1rem;
+    background-color: var(--box-color);
+
+    border-style: solid;
+    border-color: var(--border-color);
+
+    float:left;
+}

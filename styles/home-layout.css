@@ -60,7 +60,7 @@ footer{
     body{
         grid-template-areas:"header" "nav" "main" "aside" "footer";
         grid-template-columns: 1fr;
-        grid-template-rows: 10em 3em auto auto 3em;
+        grid-template-rows: auto 3em auto auto 3em;
 
         header{
             max-height: fit-content;
