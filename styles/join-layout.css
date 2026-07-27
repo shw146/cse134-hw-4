@@ -4,6 +4,13 @@ body{
     min-height: 100svh
 }
 
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+}
+
 main{
     flex: 1;
 
@@ -20,6 +27,7 @@ form{
     border-color: var(--border-color);
 
     margin: 1rem auto 1rem;
+    padding: 1rem;
 }
 
 #why-dialog{
@@ -28,5 +36,6 @@ form{
 
     ul{
         list-style-type: disc;
+        display: block;
     }
 }

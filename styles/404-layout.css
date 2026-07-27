@@ -1,0 +1,33 @@
+*{
+    --sad-cheese-width: 20rem;
+    --sad-cheese-height: 20rem;
+}
+
+header{
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    
+    min-height: 100svh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: var(--sad-cheese-height);
+    height: var(--sad-cheese-width);
+}
