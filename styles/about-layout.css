@@ -22,4 +22,6 @@ figure[name = "board-box"]{
     border-color: var(--border-color);
 
     float:left;
+
+    max-width: 70ch;
 }

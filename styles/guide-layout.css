@@ -3,7 +3,7 @@ nav ul{
 }
 
 main{
-    width: 70ch;
+    max-width: 70ch;
 
     text-align: start;
 
