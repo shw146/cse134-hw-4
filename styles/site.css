@@ -30,3 +30,7 @@ footer{
     border-style: solid none none;
     border-color: var(--border-color);
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}

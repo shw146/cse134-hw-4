@@ -1,7 +1,4 @@
 nav ul{
-    display: flex;
-    justify-content: space-evenly;
-
     list-style-type: none;
 }
 
@@ -63,4 +60,20 @@ dt + dd{
 main footer{
     background-color: var(--background-color);
     border-style: none;
+}
+
+#fresh-cheese-image{
+    view-transition-name: fresh-image;
+}
+
+#soft-cheese-image{
+    view-transition-name: soft-image;
+}
+
+#blue-cheese-image{
+    view-transition-name: blue-image;
+}
+
+#hard-cheese-image{
+    view-transition-name: hard-image;
 }

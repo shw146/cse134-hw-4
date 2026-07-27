@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-rows: auto auto 1fr auto;
+
+    min-height: 100svh;
+}
+
+header{
+    grid-area: header;
+
+    img{
+        width: 5em;
+    }
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+
+    padding: 1rem;
+
+    ul{
+        list-style-position: inside;
+    }
+}
+
+footer{
+    grid-area: footer;
+}
+
+#fresh-cheese-image{
+    view-transition-name: fresh-image;
+}
+
+#soft-cheese-image{
+    view-transition-name: soft-image;
+}
+
+#blue-cheese-image{
+    view-transition-name: blue-image;
+}
+
+#hard-cheese-image{
+    view-transition-name: hard-image;
+}
