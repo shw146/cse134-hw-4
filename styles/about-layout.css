@@ -14,7 +14,7 @@ footer{
     clear: both;
 }
 
-figure[name = "board-box"]{
+figure{
     margin: 1rem;
     background-color: var(--box-color);
 
